@@ -7,10 +7,10 @@
 主要fork 来源于：[推荐系统实例](https://github.com/lpty/recommendation)  
 
 主要介绍 3大模型：
-**协同过滤 UserCF 的模型** 
+**协同过滤 UserCF 的模型**   
 基于用户协同过滤算法  
-**基于隐语义（LFM）的模型** 
-**基于图（PersonalRank）的模型**  
+**基于隐语义（LFM）的模型**   
+**基于图（PersonalRank）的模型**    
 **参与人**:[小兔子乖乖](https://github.com/PandasCute)  
 **数据集**：[movielens](http://grouplens.org/datasets/movielens/1m)   
 
