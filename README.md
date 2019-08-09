@@ -11,7 +11,7 @@
 基于用户协同过滤算法  
 **基于隐语义（LFM）的模型**   
 **基于图（PersonalRank）的模型**    
-**参与人**:[小兔子乖乖](https://github.com/PandasCute)  
+**参与人**: [小兔子乖乖](https://github.com/PandasCute)  
 **数据集**：[movielens](http://grouplens.org/datasets/movielens/1m)   
 
 我主要把这部分代码做成了Notebook的形势，一是为了学习，而是为了萌新能看懂，主要是做成我们好看到的。
