@@ -13,6 +13,7 @@
 **基于图（PersonalRank）的模型**  
 **参与人**:[小兔子乖乖](https://github.com/PandasCute)  
 **数据集**：[movielens](http://grouplens.org/datasets/movielens/1m)   
-**数据集解释**：官方下载数据集命名可能不一样  
+
+我主要把这部分代码做成了Notebook的形势，一是为了学习，而是为了萌新能看懂，主要是做成我们好看到的。
 
 
