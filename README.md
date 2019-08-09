@@ -36,6 +36,8 @@ UserCF1.ipynb主要是做a第一部分的事情，就是找找到和目标用户
 
 * 3.第三部分代码主要做一个基于用户协同过滤的代码2,放入UserCF2.ipynb。
 核心就是得到用户之间的兴趣相似度后，UserCF算法会给用户推荐和他兴趣最相似的K个用户喜欢的物品。
+![](https://github.com/PandasCute/how-to-Building-a-recommendation-system/blob/master/918077-20181103141555690-125781261.png)
+
 
 公式度量了UserCF算法中用户u对物品i的感兴趣程度：其中，S(u, K)包含和用户u兴趣最接近的K个用户，N(i)是对物品i有过行为的用户集合，Wuv是用户u和用户v的兴趣相似度，Rvi代表用户v对物品i的兴趣，因为使用的是单一行为的隐反馈数据，所以所有的Rvi=1。
 
