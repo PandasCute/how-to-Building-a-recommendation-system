@@ -18,14 +18,15 @@
 
 * 1.第一部分代码主要是将dat 转化为csv，我放入了preprocess.ipynb   
 * 2.第二部分代码主要做一个基于用户协同过滤的代码,放入UserCF1.ipynb 
-UserCF 的原理：
+UserCF 的原理：     
 原理核心：当一个用户A需要个性化推荐时，可以先找到他有相似兴趣的其他用户，然后把那些用户喜欢的、而用户A没听过的物品推荐给A。
 a) 找到和目标用户兴趣相似的用户集合
 
 b) 找到这个集合中的用户喜欢的，且目标用户没有听说过的物品推荐给目标用户。
 
-1）这里主要做了一个Jaccard 系数:用于比较有限样本集之间的相似性与差异性。  
 
+1）这里主要做了一个Jaccard 系数:用于比较有限样本集之间的相似性与差异性。  
+UserCF1.ipynb主要是做a第一部分的事情，就是找找到和目标用户兴趣相似的用户集合。
 
 给定两个集合A,B，Jaccard 系数定义为A与B交集的大小与A与B并集的大小的比值，定义如下：     
 ![jaccard图片](https://github.com/PandasCute/how-to-Building-a-recommendation-system/blob/master/8644ebf81a4c510f05fdbf876959252dd42aa576.jpg)
