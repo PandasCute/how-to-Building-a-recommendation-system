@@ -54,6 +54,7 @@ def calcuteInterest(frame,similarSeries,targetItemID):
     :param similarSeries: 目标用户最相似的K个用户
     :param targetItemID: 目标物品
     :return:感兴趣程度
+    '''
     similarUserID = similarSeries.index                                                 #和用户兴趣最相似的K个用户
     similarUsers = [frame[frame['UserID'] == i] for i in similarUserID]                 #K个用户数据
     similarUserValues = similarSeries.values                                            #用户和其他用户的兴趣相似度
