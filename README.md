@@ -47,14 +47,13 @@ UserCF1.ipynb主要是做a第一部分的事情，就是找找到和目标用户
 在UserCF2.ipynb代码中主要核心是：       
 
 '''
-
 def calcuteInterest(frame,similarSeries,targetItemID):
     计算目标用户对目标物品的感兴趣程度
     :param frame: 数据
     :param similarSeries: 目标用户最相似的K个用户
     :param targetItemID: 目标物品
     :return:感兴趣程度
-    '''
+
     similarUserID = similarSeries.index                                                 #和用户兴趣最相似的K个用户
     similarUsers = [frame[frame['UserID'] == i] for i in similarUserID]                 #K个用户数据
     similarUserValues = similarSeries.values                                            #用户和其他用户的兴趣相似度
@@ -63,7 +62,6 @@ def calcuteInterest(frame,similarSeries,targetItemID):
         if targetItemID in u['MovieID'].values: UserInstItem.append(u[u['MovieID']==targetItemID]['Rating'].values[0])
         else: UserInstItem.append(0)
     interest = sum([similarUserValues[v]*UserInstItem[v]/5 for v in range(len(similarUserValues))])
-    return interest
-    
+    return interest    
 '''
 
